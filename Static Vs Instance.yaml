@@ -1,0 +1,9 @@
+# What is the difference between instance method and static method?
+
+Stratic method
+
+=> Static methods belong to the class itself rather than to any specific instance (object) of the class.
+
+instance method
+ 
+=> Instance methods belongs to object (instances) created from the class.
