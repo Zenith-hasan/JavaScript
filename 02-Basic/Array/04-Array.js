@@ -1,3 +1,15 @@
+// The javascript Array object let's you store multiple values in a single variable. An array is used to store a sequential collection of multiple elements of same or differnt data types.
+
+
+// Array constructor
+
+const arr = new Array(3,4,5,6)
+console.log(arr)
+
+// using the array literals
+
+const arr02 = ["apple","banana","litchi"]
+console.log(arr02)
 // Pushing element to an array
 
 function pushExample(arr, element) {
