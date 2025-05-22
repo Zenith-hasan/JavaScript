@@ -78,4 +78,26 @@ const array05 = Array.of(5,5,5,5,5).fill(10)
 console.log(array05)
 
 
-// 
+// filter() - method is used to create a new array with elements that pass a certan condition
+
+
+// function to find all all the even number in an array
+
+const num = [3,4,5,6,7,8,9,10]
+
+const result = num.filter( (val) => {
+  if (val % 2 == 0){
+    return val
+  }
+  
+})
+
+console.log(result)
+
+
+// function combining the includes and filter methods
+
+const animal = ["Lion","Cheetah","Horse","Tiger","Bear","Elephant"]
+
+const selectAnimal = animal.filter((animal) => animal.includes('a'))
+console.log(selectAnimal)
