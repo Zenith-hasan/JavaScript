@@ -18,3 +18,4 @@ const afterTimeInMs = afterExcu.getTime();
 
 const funcRunTime = afterTimeInMs - beforeTimeInMs;
 console.log(funcRunTime)
+
