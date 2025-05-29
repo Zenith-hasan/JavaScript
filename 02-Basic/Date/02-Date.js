@@ -2,7 +2,7 @@
 
 function calculateSum(){
 	let a = 0;
-	for(let i=0; i<1000000088; i++){
+	for(let i=0; i<1000000; i++){
 		a = a + 1
 
 	}
